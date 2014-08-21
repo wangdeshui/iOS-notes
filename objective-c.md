@@ -1,7 +1,41 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [Objective-C tips](#objective-c-tips)
+  - [Define and use private property](#define-and-use-private-property)
+  - [Dismiss keyboard](#dismiss-keyboard)
+    - [call resignFirstResponser](#call-resignfirstresponser)
+    - [Touch screen dismiss keyboard](#touch-screen-dismiss-keyboard)
+    - [Return key dismiss keyboard](#return-key-dismiss-keyboard)
+  - [error check list](#error-check-list)
+  - [remove all subviews](#remove-all-subviews)
+  - [Frame](#frame)
+  - [UITextField to show all text](#uitextfield-to-show-all-text)
+  - [View Size operation](#view-size-operation)
+  - [UIImage handle](#uiimage-handle)
+  - [CALayer](#calayer)
+  - [UIAnimation](#uianimation)
+  - [Load viewcontroller from storyboard](#load-viewcontroller-from-storyboard)
+  - [View controler transiation](#view-controler-transiation)
+  - [strong, copy, assign, weak](#strong-copy-assign-weak)
+  - [Collections](#collections)
+  - [Blocks sample](#blocks-sample)
+  - [__block](#__block)
+  - [Singleton](#singleton)
+  - [Multiple-Thread](#multiple-thread)
+    - [sample1](#sample1)
+      - [main.m](#mainm)
+      - [PrimeFinder.h](#primefinderh)
+      - [PrimeFinder.m](#primefinderm)
+      - [PrimeFinderGCD.m](#primefindergcdm)
+      - [PrimeFinderGCD2](#primefindergcd2)
+      - [PrimeFinderNSOperate](#primefindernsoperate)
+    - [Creating and Managing Queues](#creating-and-managing-queues)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Objective-C tips
-
-
-[TOC]
 
 ## Define and use private property
 
