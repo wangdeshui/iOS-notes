@@ -1,0 +1,54 @@
+PODS:
+  - AFIncrementalStore (0.5.1):
+    - AFNetworking (~> 1.3.2)
+    - InflectorKit
+    - TransformerKit
+  - AFNetworking (1.3.4)
+  - InflectorKit (0.0.1)
+  - TOMSCoreDataManager (0.1.1):
+    - AFIncrementalStore
+  - TOMSMorphingLabel (0.1.0)
+  - TOMSSuggestionBar (0.1.0):
+    - TOMSCoreDataManager
+    - TOMSMorphingLabel
+  - TransformerKit (0.5.0):
+    - TransformerKit/Core
+    - TransformerKit/Cryptography
+    - TransformerKit/Data
+    - TransformerKit/Date
+    - TransformerKit/Image
+    - TransformerKit/JSON
+    - TransformerKit/String
+  - TransformerKit/Core (0.5.0)
+  - TransformerKit/Cryptography (0.5.0):
+    - TransformerKit/Core
+  - TransformerKit/Data (0.5.0):
+    - TransformerKit/Core
+  - TransformerKit/Date (0.5.0):
+    - TransformerKit/Core
+  - TransformerKit/Image (0.5.0):
+    - TransformerKit/Core
+  - TransformerKit/JSON (0.5.0):
+    - TransformerKit/Core
+  - TransformerKit/String (0.5.0):
+    - TransformerKit/Core
+
+DEPENDENCIES:
+  - TOMSCoreDataManager
+  - TOMSMorphingLabel
+  - TOMSSuggestionBar (from `../`)
+
+EXTERNAL SOURCES:
+  TOMSSuggestionBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFIncrementalStore: 70ca00126363d691a2569c831eb2b016f984643b
+  AFNetworking: 80c4e0652b08eb34e25b9c0ff3c82556fe5967b4
+  InflectorKit: bb1f5c9feb01d17450b8bcdeb7ab1ef1832b2247
+  TOMSCoreDataManager: d2e6b2fb6c72692febb77c681cafe8c949c58308
+  TOMSMorphingLabel: 6b573950bbf8a898cdf85f76fe2e2379b11e3c35
+  TOMSSuggestionBar: 41fc426ce070ec9b3c723091857774ea87934162
+  TransformerKit: be60349177a82a0747c7fb7897c1367754d295d8
+
+COCOAPODS: 0.33.1
